@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    background:#9a492c 28.53%;
+    font-family: 'Pangolin', cursive;
+    
+    
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#container {
+    margin: 5px;
+    text-align: center;
+    z-index: 2;
+    background: #bebbbe;
+}
+
+
+.cell {
+    height: 45px;
+    width: 45px;
+    margin: 2px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid #857f83;
+    color: #000000;
+    z-index: 3;
+    background: #bebbbe;
+}
+
+.cell-readonly {
+    background-color: #fff3b1;
+}
+
+.cell-wrong {
+    background-color: #ff5858;
+}
+
+.cell-wrong-border {
+    background-color: #ff0000;
+    border: 2px solid #e70000;
+}
+
+#cell-2,
+#cell-5,
+#cell-11,
+#cell-14,
+#cell-20,
+#cell-23,
+#cell-29,
+#cell-32,
+#cell-38,
+#cell-41,
+#cell-47,
+#cell-50,
+#cell-56,
+#cell-59,
+#cell-65,
+#cell-68,
+#cell-74,
+#cell-77 {
+    margin-right: 8px;
+}
+
+#cell-18,
+#cell-19,
+#cell-20,
+#cell-21,
+#cell-22,
+#cell-23,
+#cell-24,
+#cell-25,
+#cell-26,
+#cell-45 {
+    margin-bottom: 8px;
+}
+
+.button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    padding: 5px 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #bd522b;
+    color: #3a1f2f;
+    box-shadow: 0 0 7px 0 #f76c01da;
+    background: #d47807;
+}
+
+.button:hover {
+    background-color: #ffffff;
+    background: #b17c56;
+}
+
+
+#status {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #33e642;
+}
